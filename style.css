@@ -19,10 +19,18 @@ body {
 }
 
 #logs:active {
-	color: #00FF00;
+	color: ;
 	text-decoration: none;
 }
 
 #store {
 	color: #FF1493;
+}
+
+#logsbody {
+	color:#00FF00;
+}
+
+#name {
+	color:#00BFFF;
 }
