@@ -3,10 +3,22 @@ body {
 	color:white;
 }
 
-#logs {
-	a:link { text-decoration: none; }
-	a:visited { text-decoration: none; }
-	a:hover { text-decoration: none; }
-	a:active { text-decoration: none; }
-	color:green;
+#logs:link {
+	color: green;
+	ext-decoration: none;
+}
+
+#logs:visited {
+	color: green;
+	text-decoration: none;
+}
+
+#logs:hover {
+	color: green;
+	text-decoration: none;
+}
+
+#logs:active {
+	color: green;
+	text-decoration: none;
 }
