@@ -4,21 +4,21 @@ body {
 }
 
 #logs:link {
-	color: green;
+	color: #00FF00;
 	text-decoration: none;
 }
 
 #logs:visited {
-	color: green;
+	color: #00FF00;
 	text-decoration: none;
 }
 
 #logs:hover {
-	color: green;
+	color: #00FF00;
 	text-decoration: none;
 }
 
 #logs:active {
-	color: green;
+	color: #00FF00;
 	text-decoration: none;
 }
