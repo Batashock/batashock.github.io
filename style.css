@@ -3,22 +3,22 @@ body {
 	color:white;
 }
 
-.a:link {
+#mylinks:link {
 	color: #00FF00;
 	text-decoration: none;
 }
 
-.a:visited {
+#mylinks:visited {
 	color: #00FF00;
 	text-decoration: none;
 }
 
-.a:hover {
+#mylinks:hover {
 	color: #00FF00;
 	text-decoration: none;
 }
 
-.a:active {
+#mylinks:active {
 	color: ;
 	text-decoration: none;
 }
