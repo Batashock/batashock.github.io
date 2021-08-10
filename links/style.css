@@ -1,0 +1,40 @@
+body {
+	background-color:black;
+	color:white;
+}
+
+#link:link {
+	color: #00FF00;
+	text-decoration: none;
+}
+
+#link:visited {
+	color: #00FF00;
+	text-decoration: none;
+}
+
+#link:hover {
+	color: #00FF00;
+	text-decoration: none;
+}
+
+#link:active {
+	color: ;
+	text-decoration: none;
+}
+
+#store {
+	color: #FF1493;
+}
+
+#logsbody {
+	color:#ffa812;
+}
+
+#name {
+	color:#00BFFF;
+}
+
+#linkstitle {
+	color:#b3f5cd;
+}
