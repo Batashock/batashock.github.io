@@ -1,0 +1,47 @@
+#title {
+	font-family:sans-serif;
+	font-size-adjust:5;
+	text-align:center;
+	color:white;
+}
+
+body {
+	background-color:black;
+}
+
+.links {
+	text-align:center;
+	color:white;
+	background-color:gray;
+	border-style:solid;
+	border-color:black;
+	border-radius: 5px;
+	padding-top: 10px;
+	padding-right: 30px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+	margin:auto;
+}
+
+#links {
+	margin:auto;
+	width:300px;
+	padding:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+#mia {
+	text-align:center;
+	color:white;
+	margin:auto;
+	margin-top:160px;
+}
+
+#miasite {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
