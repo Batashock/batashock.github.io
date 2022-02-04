@@ -1,47 +1,65 @@
 #title {
 	font-family:sans-serif;
-	font-size-adjust:5;
+	font-size-adjust:3;
 	text-align:center;
 	color:white;
+	position: relative;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color:black;
+	border-width:0;
 }
 
 body {
 	background-color:black;
 }
 
-.links {
-	text-align:center;
-	color:white;
-	background-color:gray;
-	border-style:solid;
-	border-color:black;
-	border-radius: 5px;
-	padding-top: 10px;
-	padding-right: 30px;
-	padding-bottom: 10px;
-	padding-left: 30px;
-	margin:auto;
-}
-
 #links {
-	margin:auto;
-	width:300px;
-	padding:10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 200px;
-}
-
-#mia {
+	font-family:sans-serif;
 	text-align:center;
 	color:white;
-	margin:auto;
-	margin-top:160px;
+	margin: 0;
+	position: absolute;
+	top: 60%;
+	left: 40%;
+	transform: translate(-50%, -50%);
+	font-size-adjust:1;
+}
+
+#logs {
+	font-family:sans-serif;
+	text-align:center;
+	color:white;
+	margin: 0;
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size-adjust:1;
+}
+
+#stuff {
+	font-family:sans-serif;
+	text-align:center;
+	color:white;
+	margin: 0;
+	position: absolute;
+	top: 60%;
+	left: 60%;
+	transform: translate(-50%, -50%);
+	font-size-adjust:1;
 }
 
 #miasite {
-	display: flex;
-    justify-content: center;
-    align-items: center;
+	font-family:sans-serif;
+	text-align:center;
+	color:white;
+	margin: 0;
+	position: absolute;
+	top: 97%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
