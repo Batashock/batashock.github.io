@@ -1,5 +1,5 @@
 #title {
-	font-family:sans-serif;
+	font-family:arial, helvetica, sans-serif;
 	font-size-adjust:2.5;
 	text-align:center;
 	color:white;
@@ -16,7 +16,7 @@ body {
 }
 
 #links {
-	font-family:sans-serif;
+	font-family:arial, helvetica, sans-serif;
 	text-align:center;
 	color:white;
 	margin: 0;
@@ -28,7 +28,7 @@ body {
 }
 
 #logs {
-	font-family:sans-serif;
+	font-family:arial, helvetica, sans-serif;
 	text-align:center;
 	color:white;
 	margin: 0;
@@ -40,7 +40,7 @@ body {
 }
 
 #stuff {
-	font-family:sans-serif;
+	font-family:arial, helvetica, sans-serif;
 	text-align:center;
 	color:white;
 	margin: 0;
@@ -52,7 +52,7 @@ body {
 }
 
 #miasite {
-	font-family:sans-serif;
+	font-family:arial, helvetica, sans-serif;
 	text-align:center;
 	color:white;
 	margin: 0;
