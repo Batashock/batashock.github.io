@@ -1,6 +1,6 @@
 #title {
 	font-family:sans-serif;
-	font-size-adjust:3;
+	font-size-adjust:2.5;
 	text-align:center;
 	color:white;
 	position: relative;
@@ -9,8 +9,6 @@
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	background-color:black;
-	border-width:0;
 }
 
 body {
@@ -59,7 +57,7 @@ body {
 	color:white;
 	margin: 0;
 	position: absolute;
-	top: 97%;
+	top: 98%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
