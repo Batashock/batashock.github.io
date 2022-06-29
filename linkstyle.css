@@ -1,6 +1,6 @@
 #youtube {
 	font-family:arial,helvetica,sans-serif;
-	font-size:40px;
+	font-size:2.75vw;
 	position: absolute;
 	top: 40%;
 	left: 50%;
@@ -18,7 +18,7 @@
 
 #twitch {
 	font-family:arial,helvetica,sans-serif;
-	font-size:40px;
+	font-size:2.75vw;
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -36,7 +36,7 @@
 
 #twitter {
 	font-family:arial,helvetica,sans-serif;
-	font-size:40px;
+	font-size:2.75vw;
 	position: absolute;
 	top: 60%;
 	left: 50%;

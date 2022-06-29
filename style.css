@@ -1,6 +1,6 @@
 #title {
 	font-family:arial, helvetica, sans-serif;
-	font-size:4.8125em;
+	font-size:5vw;
 	text-align:center;
 	color:white;
 	position: relative;
@@ -24,7 +24,7 @@ body {
 	top: 60%;
 	left: 40%;
 	transform: translate(-50%, -50%);
-	font-size:1.9375em;
+	font-size:3vw;
 }
 
 #logs {
@@ -36,7 +36,7 @@ body {
 	top: 60%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	font-size:1.9375em;
+	font-size:3vw;
 }
 
 #stuff {
@@ -48,7 +48,7 @@ body {
 	top: 60%;
 	left: 60%;
 	transform: translate(-50%, -50%);
-	font-size:1.9375em;
+	font-size:3vw;
 }
 
 #miasite {
@@ -60,4 +60,5 @@ body {
 	top: 98%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+	font-size:1vw;
 }
