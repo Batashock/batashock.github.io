@@ -62,3 +62,40 @@ body {
 	transform: translate(-50%, -50%);
 	font-size:1vw;
 }
+
+#youtube {
+	font-family:arial,helvetica,sans-serif;
+	font-size:2.75vw;
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color:white;
+	text-align:center;
+}
+
+#twitch {
+	font-family:arial,helvetica,sans-serif;
+	font-size:2.75vw;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color:white;
+	text-align:center;
+}
+
+#twitter {
+	font-family:arial,helvetica,sans-serif;
+	font-size:2.75vw;
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color:white;
+	text-align:center;
+}
+
+body {
+	background-color:black;
+}
