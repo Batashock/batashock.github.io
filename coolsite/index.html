@@ -2,20 +2,22 @@
 <html lang="en">
 <head>
 <script type='text/javascript' src='//www.midijs.net/lib/midi.js'></script>
-<script type='text/javascript'>MIDIjs.play('TheHereticAnthem.mid');</script>
+<script type="text/javascript">
+    function changeImage(h) {
+	document.getElementById("door").src=h;
+	MIDIjs.play('TheHereticAnthem.mid');
+    }
+</script>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <div id="title">
 <img src="WELCOME TO.gif" id="welcometo">
-<img src="EPIC.gif" id="epicimg">
+<img src="EPIC.png" id="epicimg">
 <img src="WEBSITE.gif" id="websitegif">
 </div>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+<div id="doordiv">
+<img id="door" src='door.png' onclick='changeImage("door.gif");'>
+</div>
 </body>
 </html>

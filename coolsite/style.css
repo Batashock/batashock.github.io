@@ -13,11 +13,30 @@
 
 #title {
 	position: absolute;
-	left:7.25%;
-	margin: auto;
+	margin-left: 10%;
 }
 
 body {
-	text-align:center;
 	background-image: url('stars.bmp');
+    background-size: 10vw;
+}
+
+#welcometo {
+    width: 50vw;
+}
+
+#epicimg {
+    width: 7.5vw;
+}
+
+#websitegif {
+    width: 17vw;
+}
+
+#door {
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+	max-width: 20.75vw;
 }
