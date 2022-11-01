@@ -6,7 +6,13 @@
     function changeImage(h) {
 	document.getElementById("door").src=h;
 	MIDIjs.play('TheHereticAnthem.mid');
-    }
+	
+}
+</script>
+<script type="text/javascript">
+	function removedoor() {
+	document.getElementById("door").style.width="0px";
+}
 </script>
 <link rel="stylesheet" href="style.css">
 </head>
@@ -16,8 +22,6 @@
 <img src="EPIC.png" id="epicimg">
 <img src="WEBSITE.gif" id="websitegif">
 </div>
-<div id="doordiv">
 <img id="door" src='door.png' onclick='changeImage("door.gif");'>
-</div>
 </body>
 </html>
