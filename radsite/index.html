@@ -4,12 +4,17 @@
 <script type='text/javascript' src='//www.midijs.net/lib/midi.js'></script>
 <script type="text/javascript">
     function changeImage(h) {
+	var dooropen = new Audio('dooropen.wav');
+	dooropen.play();
 	document.getElementById("door").src=h;
     setTimeout(removedoor, 3000);
-	MIDIjs.play('TheHereticAnthem.mid');
+	setTimeout(hereticanthem, 3000);
 }
 	function removedoor() {
 	document.getElementById("door").style.width="0px";
+}
+	function hereticanthem() {
+	MIDIjs.play('TheHereticAnthem.mid');
 }
 </script>
 <link rel="stylesheet" href="style.css">
