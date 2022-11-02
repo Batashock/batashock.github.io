@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script type='text/javascript' src='//www.midijs.net/lib/midi.js'></script>
+<script type="text/javascript">
+    function changeImage(h) {
+	document.getElementById("door").src=h;
+    setTimeout(removedoor, 3000);
+	MIDIjs.play('TheHereticAnthem.mid');
+}
+	function removedoor() {
+	document.getElementById("door").style.width="0px";
+}
+</script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="title">
+<img src="WELCOME TO.gif" id="welcometo">
+<img src="EPIC.png" id="epicimg">
+<img src="WEBSITE.gif" id="websitegif">
+</div>
+<img id="door" src='door.png' onclick='changeImage("door.gif");'>
+</body>
+</html>
