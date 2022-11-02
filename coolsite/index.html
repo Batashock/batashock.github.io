@@ -5,11 +5,9 @@
 <script type="text/javascript">
     function changeImage(h) {
 	document.getElementById("door").src=h;
+    setTimeout(removedoor, 3000);
 	MIDIjs.play('TheHereticAnthem.mid');
-	
 }
-</script>
-<script type="text/javascript">
 	function removedoor() {
 	document.getElementById("door").style.width="0px";
 }
