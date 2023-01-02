@@ -15,31 +15,31 @@ body {
 	background-color:black;
 }
 
-#links {
+#youtube {
 	font-family:arial, helvetica, sans-serif;
 	text-align:center;
 	color:white;
 	margin: 0;
 	position: absolute;
 	top: 60%;
-	left: 40%;
+	left: 41%;
 	transform: translate(-50%, -50%);
 	font-size:3vw;
 }
 
-#logs {
+#twitch {
 	font-family:arial, helvetica, sans-serif;
 	text-align:center;
 	color:white;
 	margin: 0;
 	position: absolute;
 	top: 60%;
-	left: 50%;
+	left: 51%;
 	transform: translate(-50%, -50%);
 	font-size:3vw;
 }
 
-#stuff {
+#twitter {
 	font-family:arial, helvetica, sans-serif;
 	text-align:center;
 	color:white;
@@ -61,39 +61,6 @@ body {
 	left: 50%;
 	transform: translate(-50%, -50%);
 	font-size:1vw;
-}
-
-#youtube {
-	font-family:arial,helvetica,sans-serif;
-	font-size:2.75vw;
-	position: absolute;
-	top: 40%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	color:white;
-	text-align:center;
-}
-
-#twitch {
-	font-family:arial,helvetica,sans-serif;
-	font-size:2.75vw;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	color:white;
-	text-align:center;
-}
-
-#twitter {
-	font-family:arial,helvetica,sans-serif;
-	font-size:2.75vw;
-	position: absolute;
-	top: 60%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	color:white;
-	text-align:center;
 }
 
 body {

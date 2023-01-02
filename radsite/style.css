@@ -13,7 +13,7 @@
 
 #title {
 	position: absolute;
-	margin-left: 10%;
+	margin-left: 7%;
 	opacity: 0%;
 }
 
@@ -22,16 +22,8 @@ body {
     background-size: 10vw;
 }
 
-#welcometo {
-    width: 50vw;
-}
-
-#epicimg {
-    width: 7.5vw;
-}
-
-#websitegif {
-    width: 17vw;
+#WELCOMETO {
+    width: 82vw;
 }
 
 #door {
