@@ -11,12 +11,6 @@
 	animation-iteration-count: infinite;
 }
 
-#title {
-	position: absolute;
-	margin-left: 7%;
-	opacity: 0%;
-}
-
 body {
 	background-image: url('stars.bmp');
     background-size: 10vw;
@@ -24,6 +18,9 @@ body {
 
 #WELCOMETO {
     width: 82vw;
+	position: absolute;
+	margin-left: 7%;
+	opacity: 0%;
 }
 
 #door {

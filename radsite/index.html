@@ -2,31 +2,12 @@
 <html lang="en">
 <head>
 <script type='text/javascript' src='//www.midijs.net/lib/midi.js'></script>
-<script type="text/javascript">
-    function OPENTHEDOOR(h) {
-	var dooropen = new Audio('dooropen.wav');
-	dooropen.play();
-	document.getElementById("door").src=h;
-    setTimeout(removedoor, 3000);
-	setTimeout(hereticanthem, 3000);
-	setTimeout(revealpage, 3000);
-}
-	function removedoor() {
-	document.getElementById("door").style.width="0px";
-}
-	function hereticanthem() {
-	MIDIjs.play('TheHereticAnthem.mid');
-}
-	function revealpage() {
-	document.getElementById("title").style.opacity="100%";
-}
+<script type='text/javascript' src='scripts.js'></script>
 </script>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div id="title">
 <img src="WELCOME.gif" id="WELCOMETO">
-</div>
 <img id="door" src='door.png' onclick='OPENTHEDOOR("door.gif");'>
 </body>
 </html>
