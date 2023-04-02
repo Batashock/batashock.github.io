@@ -50,15 +50,3 @@ body {
 	transform: translate(-50%, -50%);
 	font-size:3vw;
 }
-
-#miasite {
-	font-family:arial, helvetica, sans-serif;
-	text-align:center;
-	color:white;
-	margin: 0;
-	position: absolute;
-	top: 98%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	font-size:1vw;
-}
