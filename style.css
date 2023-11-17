@@ -50,7 +50,7 @@ body {
 	margin: 0;
 	position: absolute;
 	top: 60%;
-	left: 51%;
+	left: 51.2%;
 	transform: translate(-50%, -50%);
 	font-size:3vw;
 }
@@ -63,6 +63,30 @@ body {
 	position: absolute;
 	top: 60%;
 	left: 60%;
+	transform: translate(-50%, -50%);
+	font-size:3vw;
+}
+
+#previous {
+	font-family:arial, helvetica, sans-serif;
+	text-align:center;
+	color:white;
+	margin: 0;
+	position: absolute;
+	top: 60%;
+	left: 34%;
+	transform: translate(-50%, -50%);
+	font-size:3vw;
+}
+
+#next {
+	font-family:arial, helvetica, sans-serif;
+	text-align:center;
+	color:white;
+	margin: 0;
+	position: absolute;
+	top: 60%;
+	left: 65.8%;
 	transform: translate(-50%, -50%);
 	font-size:3vw;
 }
